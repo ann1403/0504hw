@@ -1,0 +1,52 @@
+/**{
+    border: 1px solid red !important;
+}*/
+
+.block1{
+    background: #fc3; 
+    /*padding: 10px;*/
+    text-align: center;
+    display: block;
+}
+h1{
+    text-align: center;
+    display:inline-block;
+    background-color: white;
+    padding: 10px;
+    margin: 0px;
+}
+
+img{
+padding: 6px;
+text-align: center;
+}
+a::before{
+    /* content: url(http://cdncache-a.akamaihd.net/items/it/img/arrow-10x10.png); */
+    content: "";
+    background-image: url("http://cdncache-a.akamaihd.net/items/it/img/arrow-10x10.png");
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.inside{
+    text-align: center;
+}
+p::before{
+    content: url(https://static.espreso.tv/uploads/article/2590819/images/im511x345-koshenya.jpg);
+    padding: 10px;
+}
+p::after{
+    content: url(https://static.espreso.tv/uploads/article/2590819/images/im511x345-koshenya.jpg);
+}
+h3::before{
+    content: open-quote;
+}
+h3::after{
+    content: close-quote;
+}
+h3{
+    text-align: center;
+}
